@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import time  
-from PIL import Image 
+ 
 
 
 st.title("streamlit 超入門")
@@ -30,9 +30,9 @@ expander3=st.expander("問い合わせ")
 expander3.write("問い合わせ１の回答")
 # text=st.sidebar.text_input("あなたの趣味を教えてください")
 # "あなたの趣味は：",text
-if st.checkbox("show image"):
-    img=Image.open("戦車.jpg")
-    st.image(img,caption="戦車",use_column_width=True)
+#if st.checkbox("show image"):
+#   img=Image.open("戦車.jpg")
+#    st.image(img,caption="戦車",use_column_width=True)
 
 ##st.dataframe(df,width=100,height=200)
 
